@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "webpack-cli": "^4.10.0"
@@ -7,11 +9,11 @@
   "scripts": {
     "build": "webpack",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "css-loader": "^6.7.1",
     "ejs": "^3.1.8",
+    "gh-pages": "^4.0.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0"
   }
